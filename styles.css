@@ -46,8 +46,16 @@ footer {
   font-family: 'Indie Flower', cursive;
 }
 
-@media screen and (max-width: 1500px) {
+/* Media queries to make it responsive based on screens */
+
+@media screen and (max-width: 767px) {
   h1 {
-    font-size: 6rem;
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  h1 {
+    font-size: 9rem;
   }
 }
